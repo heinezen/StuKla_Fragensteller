@@ -2,7 +2,7 @@ package fragenersteller;
 
 public class Startup
 {
-	public static final String VERSION = "1.02";
+	public static final String VERSION = "1.03";
 	
 	/**
 	 * @param args
