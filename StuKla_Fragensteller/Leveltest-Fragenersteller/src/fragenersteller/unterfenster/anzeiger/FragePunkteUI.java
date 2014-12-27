@@ -66,6 +66,7 @@ public class FragePunkteUI
 
 		NumberFormat format = NumberFormat.getIntegerInstance();
 		format.setParseIntegerOnly(true);
+		format.setGroupingUsed(false);
 
 		_fragePunkteFeld = new JFormattedTextField(format);
 		_abzugPunkteFeld = new JFormattedTextField(format);
